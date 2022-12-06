@@ -7,7 +7,7 @@ ruby "2.7.4"
 gem "rails", "~> 7.0.4"
 
 # Use sqlite3 as the database for Active Record
-gem "sqlite3", "~> 1.4"
+gem "pg"
 
 gem 'faker'
 gem 'active_model_serializers', '~> 0.10.2'
